@@ -8,6 +8,9 @@
 
 A full-stack e-commerce web application developed as part of the Web Technology Laboratory course. This repository includes both standard frontend web templates (HTML, CSS, JavaScript) and a backend framework implementation powered by Laravel.
 
+<img width="1920" height="5101" alt="image" src="https://github.com/user-attachments/assets/6c66b5db-9678-4c44-9112-c7a02a792c78" />
+
+
 ---
 
 ## 🛠 Tech Stack
@@ -151,10 +154,3 @@ php artisan test
 
 ---
 
-## 📄 License
-
-This project is open-source software licensed under the [MIT License](https://www.google.com/search?q=LICENSE).
-
-```
-
-```
