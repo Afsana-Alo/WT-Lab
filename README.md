@@ -1,66 +1,165 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Here is a professional, well-structured `README.md` tailored specifically for your project based on its structure and technologies (Laravel framework with HTML/CSS/JS storefront files).
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+---
 
-## About Laravel
+```markdown
+# WT-Lab E-Commerce Platform
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+[![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+[![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)](https://vuejs.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+A full-stack e-commerce web application developed as part of the Web Technology Laboratory course. This repository includes both standard frontend web templates (HTML, CSS, JavaScript) and a backend framework implementation powered by Laravel.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 🛠 Tech Stack
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+* **Backend:** PHP, [Laravel](https://laravel.com/)
+* **Frontend:** HTML5, CSS3, JavaScript, [Tailwind CSS](https://tailwindcss.com/), [Vue.js](https://vuejs.org/)
+* **Build Tool:** [Vite](https://vitejs.dev/)
+* **Testing:** PHPUnit
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 📁 Repository Structure
 
-## Laravel Sponsors
+```text
+├── app/                  # Laravel application logic (Controllers, Models, Middleware)
+├── bootstrap/            # Framework bootstrap & auto-loading configuration
+├── config/               # Configuration files for database, services, app, etc.
+├── database/             # Database migrations, seeders, and factories
+├── public/               # Public assets (images, compiled CSS/JS)
+├── resources/            # Uncompiled assets, Blade views, CSS, and JS components
+├── routes/               # Application route definitions (web.php, api.php, etc.)
+├── storage/              # Compiled templates, file uploads, session data, and logs
+├── tests/                # Automated tests (Feature and Unit tests)
+│
+├── index.html            # Main landing/home page template
+├── shop.html             # Product catalog page template
+├── product.html          # Individual product details page
+├── cart1.html            # Shopping cart page
+├── Checkout.html         # Checkout page template
+├── about.html            # About page template
+└── contact.html          # Contact page template
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+```
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## 🚀 Getting Started
 
-## Contributing
+Follow these instructions to set up and run the project on your local machine.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Prerequisites
 
-## Code of Conduct
+Ensure you have the following installed on your environment:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+* **PHP** `>= 8.0`
+* **Composer**
+* **Node.js** & **npm**
+* **MySQL** or **PostgreSQL**
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Installation & Setup
 
-## License
+1. **Clone the repository:**
+```bash
+git clone [https://github.com/MiM1303/WT-Lab.git](https://github.com/MiM1303/WT-Lab.git)
+cd WT-Lab
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```
+
+
+2. **Install PHP dependencies:**
+```bash
+composer install
+
+```
+
+
+3. **Install Node.js dependencies:**
+```bash
+npm install
+
+```
+
+
+4. **Environment Configuration:**
+Copy the `.env.example` file to create your `.env` configuration file:
+```bash
+cp .env.example .env
+
+```
+
+
+5. **Generate Application Key:**
+```bash
+php artisan key:generate
+
+```
+
+
+6. **Configure Database:**
+Update the database settings in your `.env` file to match your local setup:
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=wt_lab_db
+DB_USERNAME=root
+DB_PASSWORD=
+
+```
+
+
+7. **Run Database Migrations:**
+```bash
+php artisan migrate
+
+```
+
+
+
+---
+
+## 💻 Running the Application
+
+1. **Start the Vite development server:**
+```bash
+npm run dev
+
+```
+
+
+2. **Start the Laravel local development server:**
+```bash
+php artisan serve
+
+```
+
+
+3. Open your browser and navigate to `http://127.0.0.1:8000`.
+
+---
+
+## 🧪 Running Tests
+
+To run the automated PHPUnit test suite, execute:
+
+```bash
+php artisan test
+
+```
+
+---
+
+## 📄 License
+
+This project is open-source software licensed under the [MIT License](https://www.google.com/search?q=LICENSE).
+
+```
+
+```
