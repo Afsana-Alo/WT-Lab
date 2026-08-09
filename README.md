@@ -1,9 +1,5 @@
-Here is a professional, well-structured `README.md` tailored specifically for your project based on its structure and technologies (Laravel framework with HTML/CSS/JS storefront files).
 
----
-
-```markdown
-# WT-Lab E-Commerce Platform
+# E-Commerce Platform
 
 [![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
@@ -67,8 +63,7 @@ Ensure you have the following installed on your environment:
 
 1. **Clone the repository:**
 ```bash
-git clone [https://github.com/MiM1303/WT-Lab.git](https://github.com/MiM1303/WT-Lab.git)
-cd WT-Lab
+
 
 ```
 
